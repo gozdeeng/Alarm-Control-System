@@ -1,0 +1,308 @@
+*{
+    /*When adding padding and border properties to the page, box sizing is used to prevent distortion*/
+   box-sizing: border-box; 
+}
+body{
+    
+font-family: 'Nunito', sans-serif;
+margin: 0;
+
+}
+#menu{
+    /*Since it is a section, it has a certain width, so we do not need to define the width again.*/
+    height: 80px; 
+    padding: 0 20px;
+ 
+
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: darkgoldenrod;
+    float: left;
+}
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a  {
+ text-decoration: none;
+ margin-right: 25px;
+ color:darkgoldenrod ;
+}
+nav a:hover{
+    border-bottom: 2px solid darkgoldenrod ;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:darkgoldenrod ;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#anasayfa{
+    height: 46rem;  
+background-image: url(resimler/vakifbank.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+width: 100%;
+
+
+
+}
+#black{
+    height: 46rem;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+#hakkimizda{
+    background-color:#FCF7F2 ;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+h3{
+    font-size:55px ;
+    color: darkgoldenrod;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#sol{
+   float: left;
+    border-right:3px solid #E8A200  ;
+    font-size: 30px;
+    width: 400px;
+    color: #E8A200;
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+  #h5sol, #sag {
+    margin:0;
+    padding: 0;
+    margin-top: 20px; 
+}  
+
+span{
+    font-size: 50px;
+    margin-right:0.1px;
+    line-height: 42px;
+    color: darkgoldenrod;
+    font-weight: 600;
+    float: left;
+
+}
+
+
+
+
+#sag{
+   float: right;
+    width: 750px; 
+   color:#FFB300 ;
+    text-align: left;
+   letter-spacing: 1px;
+   font-size: 15px;
+   line-height: 1.8;
+   font-weight: 100;
+
+   
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top: 100px;
+}
+#pson{
+   color:#FFB300; 
+   letter-spacing: 1px;
+   font-size: 15px;
+   line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+
+#mobil{
+    background-color:#FFFFFF;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+    
+}
+.card{
+   width: 320px;
+    height: 350px;
+    border: 1px solid #3B3635;
+    padding: 0;
+    display: inline-block;
+   
+    
+}
+.baslikcard{
+ 
+    font-size:13px;
+    color: darkgoldenrod;
+    
+}
+.cardp{
+   color: #3B3635; 
+}
+
+
+.card:hover{
+    border: 2px solid #FFB300;
+    
+}
+#internet{
+   background-color: #FAC355; 
+    padding: 50px;
+    height:675px;
+    text-align: center;
+}
+#interneth3{
+    color: white;
+}
+.sutun-sol-sag{
+    width: 385px;
+    float: left;
+    padding: 50px;
+}
+
+.oval{
+    border-radius: 15%;
+}
+.internetisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+    
+}
+.social{
+   color: white;
+  border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    margin: 5px 10px;
+    
+}
+.social:hover{
+    background-color: #E68A06;
+}
+#alarm{
+    background: url(resimler/alarm.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3alarm{
+    color: white;
+}
+#alarmopak{
+  background: rgba(255,255,255,0.2);  padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgroup{
+   width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+#solform{
+  width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+     width: 50%;
+    float:right;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #423C3C;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid  #423C3C;
+    
+}
+textarea{
+  font-family: Arial;  
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color:#445c6e; 
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adres{
+  width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+#adresbaslik{
+    font-size: 30px;
+    color: white;
+}
+.adresp{
+   color: #423C3C;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#up{
+   color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
+
